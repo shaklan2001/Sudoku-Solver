@@ -681,7 +681,7 @@ function sudokuNumPlacement() {
                 ctx.textBaseline = 'middle';
                 const textWidth = ctx.measureText(numToString).width;
                 const centerTextHorizontally = posX + (cellSize.regularCell * (row)) - (textWidth / 2);
-                ctx.fillStyle = '#30D5C8';
+                ctx.fillStyle = '#084f4b';
                 ctx.fillText(numToString, centerTextHorizontally, posY + (cellSize.regularCell * col));
                 // Black Text (Values that would be cleared if only the em)
             } else {
